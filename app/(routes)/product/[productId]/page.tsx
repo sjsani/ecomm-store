@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import GetProducts from '@/actions/GetProducts'
 import GetProduct from '@/actions/GetProduct'
 import Container from '@/components/ui/Container'

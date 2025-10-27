@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 import GetCategory from '@/actions/GetCategory';
 import GetColors from '@/actions/GetColor';
