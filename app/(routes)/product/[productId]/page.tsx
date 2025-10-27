@@ -12,7 +12,7 @@ interface ProductPageProps {
   }
 }
 const ProductPage:React.FC<ProductPageProps> = async ({params}) => {
-  const {productId}= await params
+  const {productId}= params
   const product = await GetProduct(productId)
   const suggestedProducts = await GetProducts({categoryId:product?.category?.id})
   return (
